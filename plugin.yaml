@@ -1,0 +1,6 @@
+plugin:
+    name: 'martinimultimedia.activities::lang.plugin.name'
+    description: 'martinimultimedia.activities::lang.plugin.description'
+    author: MartiniMultimedia
+    icon: oc-icon-home
+    homepage: ''
