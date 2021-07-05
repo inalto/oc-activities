@@ -20,6 +20,6 @@ class Tags extends Controller
     public function __construct()
     {
         parent::__construct();
-        BackendMenu::setContext('martinimultimedia.activities', 'activities-item', 'side-activity-tag');
+        BackendMenu::setContext('MartiniMultimedia.Activities', 'activities-item', 'side-activity-tag');
     }
 }

@@ -22,6 +22,6 @@ class Categories extends Controller
     public function __construct()
     {
         parent::__construct();
-        BackendMenu::setContext('martinimultimedia.activities', 'activities-item', 'side-activity-category');
+        BackendMenu::setContext('MartiniMultimedia.Activities', 'activities-item', 'side-activity-category');
     }
 }
