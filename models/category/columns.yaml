@@ -1,0 +1,16 @@
+columns:
+    id:
+        label: id
+        type: number
+        searchable: true
+        sortable: true
+    slug:
+        label: 'martinimultimedia.activities::lang.list.slug'
+        type: text
+        searchable: true
+        sortable: true
+    title:
+        label: 'martinimultimedia.activities::lang.list.title'
+        type: text
+        searchable: true
+        sortable: true

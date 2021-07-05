@@ -1,0 +1,10 @@
+name: Tags
+form: $/martinimultimedia/activities/models/tag/fields.yaml
+modelClass: MartiniMultimedia\Activities\Models\Tag
+defaultRedirect: martinimultimedia/activities/tags
+create:
+    redirect: 'martinimultimedia/activities/tags/update/:id'
+    redirectClose: martinimultimedia/activities/tags
+update:
+    redirect: martinimultimedia/activities/tags
+    redirectClose: martinimultimedia/activities/tags

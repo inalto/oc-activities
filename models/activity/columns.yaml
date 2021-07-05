@@ -1,0 +1,6 @@
+columns:
+    name:
+        label: 'martinimultimedia.activities::lang.list.name'
+        type: text
+        searchable: true
+        sortable: true

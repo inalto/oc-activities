@@ -1,0 +1,10 @@
+name: Activity
+modelClass: MartiniMultimedia\Activities\Models\Event
+form: $/martinimultimedia/activities/models/activity/fields.yaml
+defaultRedirect: martinimultimedia/activities/activities
+create:
+    redirect: 'martinimultimedia/activities/activities/update/:id'
+    redirectClose: martinimultimedia/activities/activities
+update:
+    redirect: martinimultimedia/activities/activities
+    redirectClose: martinimultimedia/activities/activities

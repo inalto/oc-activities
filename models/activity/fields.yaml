@@ -1,0 +1,81 @@
+fields:
+    name:
+        label: 'martinimultimedia.activities::lang.form.name'
+        span: auto
+        type: text
+    slug:
+        label: 'martinimultimedia.activities::lang.form.slug'
+        span: auto
+        preset:
+            field: name
+            type: slug
+        type: text
+    excerpt:
+        label: 'martinimultimedia.activities::lang.form.excerpt'
+        size: small
+        span: full
+        type: richeditor
+    description:
+        label: 'martinimultimedia.activities::lang.form.description'
+        size: huge
+        span: full
+        type: richeditor
+    categories:
+        label: Categorie
+        nameFrom: title
+        descriptionFrom: description
+        span: auto
+        type: relation
+    tags:
+        label: 'martinimultimedia.activities::lang.form.tags'
+        mode: relation
+        nameFrom: name
+        customTags: true
+        useKey: false
+        span: full
+        type: taglist
+
+    contacts:
+        label: 'martinimultimedia.activities::lang.form.contacts'
+        prompt: 'martinimultimedia.activities::lang.form.add'
+        span: full
+        type: repeater
+        form:
+            fields:
+                type:
+                    label: Dropdown
+                    options:
+                        0: 'martinimultimedia.activities::lang.form.choose'
+                        email: 'martinimultimedia.activities::lang.form.email'
+                        pec: 'martinimultimedia.activities::lang.form.pec'
+                        phone: 'martinimultimedia.activities::lang.form.phone'
+                        cell: 'martinimultimedia.activities::lang.form.mobile'
+                        fax: 'martinimultimedia.activities::lang.form.fax'
+                        whatsapp: 'martinimultimedia.activities::lang.form.whatsapp'
+                        telegram: 'martinimultimedia.activities::lang.form.telegram'
+                    showSearch: true
+                    span: auto
+                    placeholder: 'martinimultimedia.activities::lang.form.choose'
+                    type: dropdown
+                contact:
+                    label: 'martinimultimedia.activities::lang.form.contact'
+                    span: auto
+                    type: text
+    images:
+        label: 'martinimultimedia.activities::lang.form.images'
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: full
+        type: fileupload
+    attachments:
+        label: 'martinimultimedia.activities::lang.form.attachments'
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: full
+        type: fileupload

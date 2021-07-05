@@ -4,3 +4,21 @@ plugin:
     author: MartiniMultimedia
     icon: oc-icon-home
     homepage: ''
+navigation:
+    activities-item:
+        label: 'martinimultimedia.activities::lang.menu.activities'
+        url: martinimultimedia/activities/activities
+        icon: icon-home
+        sideMenu:
+            side-activity-item:
+                label: 'martinimultimedia.activities::lang.menu.activities'
+                url: martinimultimedia/activities/activities
+                icon: icon-home
+            side-activity-category:
+                label: 'martinimultimedia.activities::lang.menu.categories'
+                url: martinimultimedia/activities/categories
+                icon: icon-list-alt
+            side-activity-tag:
+                label: 'martinimultimedia.activities::lang.menu.tags'
+                url: martinimultimedia/activities/tags
+                icon: icon-tags

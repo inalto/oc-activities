@@ -1,0 +1,4 @@
+
+{% for event in activities %}
+{% partial __SELF__ ~ '::item'  event = event%}
+{% endfor %}

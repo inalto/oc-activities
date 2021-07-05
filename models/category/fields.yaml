@@ -1,0 +1,17 @@
+fields:
+    title:
+        label: 'martinimultimedia.activities::lang.form.title'
+        span: auto
+        type: text
+    slug:
+        label: 'martinimultimedia.activities::lang.form.slug'
+        span: auto
+        preset:
+            field: title
+            type: slug
+        type: text
+    description:
+        label: 'martinimultimedia.activities::lang.form.description'
+        size: large
+        span: full
+        type: richeditor

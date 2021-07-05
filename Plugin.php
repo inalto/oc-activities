@@ -6,6 +6,10 @@ class Plugin extends PluginBase
 {
     public function registerComponents()
     {
+        return [
+            'MartiniMultimedia\Activities\Components\ActivitiesList' => 'activitiesList',
+            'MartiniMultimedia\Activities\Components\ActivityPage' => 'activityPage'
+    ];
     }
 
     public function registerSettings()

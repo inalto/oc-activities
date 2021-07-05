@@ -1,2 +1,72 @@
 <?php
-return ["plugin" => ["description" => "Working activities", "name" => "Activities"]];
+return [
+    "components" => [
+        "list" => [
+            "activities_order" => "Ordering",
+            "activities_order_description" => "Choose the order in which events are displayed",
+            "activities_per_page" => "Activities per page",
+            "activity_page" => "Activity page",
+            "activity_page_description" => "Select the event page",
+            "categories" => "Categories",
+            "categories_description" => "Categories filter",
+            "description" => "Show a list of events",
+            "loadmore" => "Read more",
+            "name" => "Event List",
+            "no_activities" => "No activities at the moment",
+            "page_number" => "Page number",
+            "page_number_description" => "page number to be displayed",
+            "paginate" => "Pagination",
+            "paginate_description" => "Choose the type of pagination",
+            "paginator_full" => "Full",
+            "paginator_incremental" => "Incremental",
+            "paginator_none" => "None",
+            "skip" => "Skip",
+            "skip_description" => "Skip the first n events",
+            "skip_validation" => "A number greater than or equal to zero is required"
+        ],
+        "page" => [
+            "d" => "Day",
+            "d_description" => "Day url parameter",
+            "description" => "Individual event page",
+            "m" => "Month\n",
+            "m_description" => "Month url parameter",
+            "name" => "Event",
+            "slug" => "",
+            "slug_description" => "",
+            "y" => "Year",
+            "y_description" => "Year url parameter"
+        ]
+    ],
+    "form" => [
+        "activities" => "activities",
+        "activity" => "activity",
+        "add" => "Add",
+        "attachments" => "Attachments",
+        "choose" => "Choose",
+        "contact" => "Contact",
+        "contacts" => "Contacts",
+        "create" => "Create\n",
+        "description" => "Description",
+        "email" => "e-mail",
+        "excerpt" => "Excerpt",
+        "fax" => "Fax",
+        "images" => "Images",
+        "lat" => "Latitude",
+        "lon" => "Longitude",
+        "markers" => "Markers",
+        "mobile" => "Mobile",
+        "name" => "Name",
+        "pec" => "pec e-mail",
+        "phone" => "Phone",
+        "slug" => "Url alias",
+        "tag" => "Tag",
+        "tags" => "",
+        "telegram" => "Telegram",
+        "title" => "Title",
+        "update" => "Update",
+        "whatsapp" => "WhatsApp"
+    ],
+    "list" => ["date" => "Date", "name" => "Name", "slug" => "Url alias", "title" => "Title"],
+    "menu" => ["activities" => "Activities", "categories" => "Categories", "tags" => "Tags"],
+    "plugin" => ["description" => "Manager of work activities", "name" => "Activities"]
+];

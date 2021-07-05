@@ -1,2 +1,72 @@
 <?php
-return ["plugin" => ["description" => "Attività lavorative", "name" => "Attività"]];
+return [
+    "components" => [
+        "list" => [
+            "activities_order" => "Ordinamento",
+            "activities_order_description" => "Scegli l'ordine di visualizzazione degli eventi",
+            "activities_per_page" => "Attività per pagina",
+            "activity_page" => "Pagina attività",
+            "activity_page_description" => "Seleziona la pagina dell'evento",
+            "categories" => "Categorie",
+            "categories_description" => "Filtro categorie",
+            "description" => "Mostra una lista di eventi",
+            "loadmore" => "Vedi altri",
+            "name" => "Lista Eventi",
+            "no_activities" => "No ci sono attività al momento",
+            "page_number" => "n° Pagina",
+            "page_number_description" => "n° di pagina da visualizzare",
+            "paginate" => "Paginazione",
+            "paginate_description" => "Scegli il tipo di paginazione",
+            "paginator_full" => "Completo",
+            "paginator_incremental" => "Incrementale",
+            "paginator_none" => "Nessuno",
+            "skip" => "Salta",
+            "skip_description" => "Salta i primi n eventi",
+            "skip_validation" => "E' necessario un numero maggiore o uguale a zero"
+        ],
+        "page" => [
+            "d" => "Giorno",
+            "d_description" => "Parametro url del giorno",
+            "description" => "Pagina del singolo evento",
+            "m" => "Mese",
+            "m_description" => "Parametro url del mese",
+            "name" => "Evento",
+            "slug" => "",
+            "slug_description" => "",
+            "y" => "Anno",
+            "y_description" => "Parametro url dell'anno"
+        ]
+    ],
+    "form" => [
+        "activities" => "attività",
+        "activity" => "attività",
+        "add" => "Aggiungi",
+        "attachments" => "Allegati",
+        "choose" => "Scegli",
+        "contact" => "Contatto",
+        "contacts" => "Contatti",
+        "create" => "Crea",
+        "description" => "Descrizione",
+        "email" => "e-mail",
+        "excerpt" => "Estratto",
+        "fax" => "Fax",
+        "images" => "Immagini",
+        "lat" => "Latitudine",
+        "lon" => "Longitudine",
+        "markers" => "Segna posto",
+        "mobile" => "Cellulare",
+        "name" => "Nome",
+        "pec" => "e-mail pec",
+        "phone" => "Telefono",
+        "slug" => "Url alias",
+        "tag" => "Etichetta",
+        "tags" => "Etichette",
+        "telegram" => "Telegram",
+        "title" => "Titolo",
+        "update" => "Aggiorna",
+        "whatsapp" => "WhatsApp"
+    ],
+    "list" => ["date" => "Data", "name" => "Nome", "slug" => "Url alias", "title" => "Titolo"],
+    "menu" => ["activities" => "Attività", "categories" => "Categorie", "tags" => "Etichette"],
+    "plugin" => ["description" => "Gestore di attività lavorative", "name" => "Attività"]
+];

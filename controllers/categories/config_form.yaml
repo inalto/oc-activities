@@ -1,0 +1,10 @@
+name: Categories
+form: $/martinimultimedia/activities/models/category/fields.yaml
+modelClass: MartiniMultimedia\Activities\Models\Category
+defaultRedirect: martinimultimedia/activities/categories
+create:
+    redirect: 'martinimultimedia/activities/categories/update/:id'
+    redirectClose: martinimultimedia/activities/categories
+update:
+    redirect: martinimultimedia/activities/categories
+    redirectClose: martinimultimedia/activities/categories
