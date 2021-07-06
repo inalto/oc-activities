@@ -1,5 +1,5 @@
 title: Activities
-modelClass: MartiniMultimedia\Activities\Models\Event
+modelClass: MartiniMultimedia\Activities\Models\Activity
 list: $/martinimultimedia/activities/models/activity/columns.yaml
 recordUrl: 'martinimultimedia/activities/activities/update/:id'
 noRecordsMessage: 'backend::lang.list.no_records'

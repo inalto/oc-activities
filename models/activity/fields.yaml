@@ -61,6 +61,30 @@ fields:
                     label: 'martinimultimedia.activities::lang.form.contact'
                     span: auto
                     type: text
+    points:
+        label: 'martinimultimedia.activities::lang.form.markers'
+        prompt: 'martinimultimedia.activities::lang.form.add'
+        style: default
+        span: full
+        type: repeater
+        form:
+            fields:
+                name:
+                    label: 'martinimultimedia.activities::lang.form.name'
+                    span: storm
+                    cssClass: col-sm-8
+                    type: text
+                lat:
+                    label: 'martinimultimedia.activities::lang.form.lat'
+                    span: storm
+                    cssClass: col-sm-2
+                    type: text
+                lon:
+                    label: 'martinimultimedia.activities::lang.form.lon'
+                    span: storm
+                    cssClass: col-sm-2
+                    type: text
+
     images:
         label: 'martinimultimedia.activities::lang.form.images'
         mode: image

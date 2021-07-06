@@ -1,5 +1,5 @@
 name: Activity
-modelClass: MartiniMultimedia\Activities\Models\Event
+modelClass: MartiniMultimedia\Activities\Models\Activity
 form: $/martinimultimedia/activities/models/activity/fields.yaml
 defaultRedirect: martinimultimedia/activities/activities
 create:

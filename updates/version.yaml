@@ -15,3 +15,9 @@
 1.0.6:
     - 'Create tables for tags activities tags relation'
     - builder_table_create_martinimultimedia_activities_activities_tags.php
+1.0.7:
+    - 'Updated table martinimultimedia_activities_activities'
+    - builder_table_update_martinimultimedia_activities_activities.php
+1.0.8:
+    - 'Updated table martinimultimedia_activities_activities'
+    - builder_table_update_martinimultimedia_activities_activities_2.php
