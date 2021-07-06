@@ -75,8 +75,8 @@ return [
             "thursday" => "Thursday",
             "times" => "Opening Times",
             "times_comment" => "'ex. 10:00-12:00 14:00-18:00'",
-            "tuesday" => "",
-            "wednesday" => ""
+            "tuesday" => "Tuesday",
+            "wednesday" => "Wednesday"
         ],
         "title" => "Title",
         "update" => "Update",

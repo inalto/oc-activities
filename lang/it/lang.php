@@ -75,8 +75,8 @@ return [
             "thursday" => "Giovedì",
             "times" => "Orari di apertura",
             "times_comment" => "'es. 10:00-12:00 14:00-18:00'",
-            "tuesday" => "",
-            "wednesday" => ""
+            "tuesday" => "Martedì",
+            "wednesday" => "Mercoledì"
         ],
         "title" => "Titolo",
         "update" => "Aggiorna",
