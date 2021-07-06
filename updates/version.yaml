@@ -21,3 +21,6 @@
 1.0.8:
     - 'Updated table martinimultimedia_activities_activities'
     - builder_table_update_martinimultimedia_activities_activities_2.php
+1.0.9:
+    - 'Updated table martinimultimedia_activities_activities'
+    - builder_table_update_martinimultimedia_activities_activities_3.php

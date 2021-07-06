@@ -21,7 +21,7 @@ class Activity extends Model
     public $table = 'martinimultimedia_activities_activities';
 
 
-    public $jsonable = ['contacts','points'];
+    public $jsonable = ['contacts','points','timetable','features'];
 
     
 

@@ -61,6 +61,10 @@ fields:
                     label: 'martinimultimedia.activities::lang.form.contact'
                     span: auto
                     type: text
+section:
+        label: 'martinimultimedia.activities::lang.form.geolocalization'
+        span: full
+        type: section
     points:
         label: 'martinimultimedia.activities::lang.form.markers'
         prompt: 'martinimultimedia.activities::lang.form.add'
@@ -103,3 +107,34 @@ fields:
             extension: auto
         span: full
         type: fileupload
+section2:
+        label: 'martinimultimedia.activities::lang.form.timetable.name'
+        span: full
+        type: section
+    timetable:
+        label: Orari
+        prompt: 'martinimultimedia.activities::lang.form.timetable.add'
+        span: full
+        type: repeater
+        form:
+            fields:
+                day:
+                    label: 'martinimultimedia.activities::lang.form.timetable.day'
+                    options:
+                        - 'martinimultimedia.activities::lang.form.timetable.choose'
+                        - 'martinimultimedia.activities::lang.form.timetable.monday'
+                        - 'martinimultimedia.activities::lang.form.timetable.tuesday'
+                        - 'martinimultimedia.activities::lang.form.timetable.wednesday'
+                        - 'martinimultimedia.activities::lang.form.timetable.thursday'
+                        - 'martinimultimedia.activities::lang.form.timetable.friday'
+                        - 'martinimultimedia.activities::lang.form.timetable.saturday'
+                        - 'martinimultimedia.activities::lang.form.timetable.sunday'
+                    showSearch: true
+                    span: auto
+                    type: dropdown
+                times:
+                    label: 'martinimultimedia.activities::lang.form.timetable.times'
+                    span: auto
+                    type: text
+                    comment: 'martinimultimedia.activities::lang.form.timetable.times_comment'
+
