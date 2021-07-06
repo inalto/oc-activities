@@ -61,7 +61,7 @@ fields:
                     label: 'martinimultimedia.activities::lang.form.contact'
                     span: auto
                     type: text
-section:
+    section:
         label: 'martinimultimedia.activities::lang.form.geolocalization'
         span: full
         type: section
@@ -107,7 +107,7 @@ section:
             extension: auto
         span: full
         type: fileupload
-section2:
+    section2:
         label: 'martinimultimedia.activities::lang.form.timetable.name'
         span: full
         type: section
